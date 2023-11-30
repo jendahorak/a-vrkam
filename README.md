@@ -1,5 +1,2 @@
-<img src="public/ghvite-logo.svg" alt="drawing" width="100"/>
-
-# ghvite
-
-Template repository for vite app automaticly deploying to github pages.
+# a-vrkam 
+VR web app for visualisation 3D data of buildings, terrain and other provided by Brno Architects office.

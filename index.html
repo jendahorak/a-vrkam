@@ -7,11 +7,14 @@
     <link href="./styles/main.css" rel="stylesheet" type="text/css" />
     <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-physics-system@v4.2.2/dist/aframe-physics-system.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.1.0/dist/aframe-extras.min.js"></script>
   </head>
 
   <body>
     <div id="app">
       <a-scene physics>
+        <!-- <a-entity ${componentName}="${propertyName1}: ${propertyValue1}; ${propertyName2}: ${propertyValue2}"> -->
+
         <a-box
           position="-1 0.5 -3"
           rotation="0 45 0"
@@ -26,6 +29,7 @@
           color="#7BC8A4"
           static-body
         ></a-plane>
+        <!-- <a-ocean color="aqua" depth="100" width="100"></a-ocean> -->
         <a-sky color="#ECECEC"></a-sky>
       </a-scene>
     </div>
